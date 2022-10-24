@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+
+*,
+* ::after,
+* ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    background: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+}
+
+.header-list ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-list ul li {
+    display: inline;
+    margin: 35px 20px;
+    font-size: 18px;
+}
+
+.header-list ul li:first-child {
+    padding-left: 80px;
+}
+
+.header-list ul li:last-child {
+    padding-right: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #0b1c39;
+}
+
+a:hover {
+    color: red;
+    transition: .4s;
+}
+
+.img-logo {
+    padding: 0 20px;
+}
+
+.main {
+    padding-top: 90px;
+    width: 100%;
+    height: 700px;
+    background: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    /* padding: 20px 20px; */
+}
+
+.img-main {
+    /* border: 1px solid black; */
+    max-height: 590px;
+    padding: 20px 0;
+}
+
+.main-head {
+    font-size: 75px;
+    padding: 20px 20px;
+    color:#0b1c39;
+}
+
+.main-p {
+    font-size: 16px;
+    padding: 20px 20px;
+}
+
+.main-btn {
+    margin: 20px 20px;
+    padding: 16px 32px;
+    font-family: inherit;
+    background: rgb(60, 60, 60);
+    color: white;
+    border-style: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: .4s linear;
+}
+
+.main-btn:hover {
+    background: red;
+    cursor: pointer;
+
+}
+
+.main-vertical {
+    padding: 0 20px;
+}
+
+.arrivals {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+}
+
+.arrivals-img {
+    max-width: 360px;
+    max-height: 480px;
+}
+
+.arrivals-pos {
+
+}
