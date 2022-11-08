@@ -36,7 +36,7 @@ header {
 }
 
 .header-list ul li:first-child {
-    padding-left: 80px;
+    padding-left: 200px;
 }
 
 .header-list ul li:last-child {
@@ -58,7 +58,8 @@ a:hover {
 }
 
 .main {
-    padding-top: 90px;
+    padding: 20px 80px;
+    margin-top: 90px;
     width: 100%;
     height: 700px;
     background: rgb(230, 230, 230);
@@ -104,10 +105,12 @@ a:hover {
 
 .main-vertical {
     padding: 0 20px;
+    /* padding-left: 60px; */
 }
 
 .arrivals {
     display: flex;
+    padding: 40px 30px;
     width: 100%;
     height: 700px;
     align-items: center;
@@ -119,5 +122,17 @@ a:hover {
 }
 
 .arrivals-pos {
-
+    padding: 0 65px;
 }
+
+.arrivals-pos h3{
+    margin: 25px 0;
+    padding: 0 39%;
+    font-size: 20px;
+}
+
+.arrivals-pos p{
+    margin: 25px 0;
+    padding: 0 42.5%;
+    font-size: 16px;
+} 
